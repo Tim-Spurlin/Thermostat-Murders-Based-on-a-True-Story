@@ -5,3 +5,9 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Build Artifacts
+out/
+.firebase/
+firebase-debug.log
+debug.zip
