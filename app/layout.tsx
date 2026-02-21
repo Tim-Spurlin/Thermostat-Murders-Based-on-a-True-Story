@@ -32,6 +32,8 @@ export const metadata: Metadata = {
   description: 'A forensic analysis of Thermoregulatory Fear of Harm Mood Disorder and the Samy Sedhom case.',
 };
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 export default function RootLayout({
   children,
 }: {
@@ -41,6 +43,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable} ${jetbrainsMono.variable} ${shareTechMono.variable}`}>
       <body className="bg-slate-950 text-slate-200 antialiased selection:bg-red-900/30 selection:text-red-200">
         {children}
+        <GoogleAnalytics gaId="G-5HC9TGBNSJ" />
       </body>
     </html>
   );
