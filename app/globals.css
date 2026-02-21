@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hw-bg: #0a0a0a;
+  --color-hw-panel: #1a1c23;
+  --color-hw-panel-light: #2a2d37;
+  --color-hw-border: #000000;
+  --color-hw-screw: #333333;
+  --color-crt-bg: #05120a;
+  --color-phosphor-green: #39ff14;
+  --color-phosphor-cyan: #00ffff;
+  --color-phosphor-amber: #ffb000;
+  --color-phosphor-red: #ff003c;
+
+  --font-share-tech: var(--font-share-tech);
+}
