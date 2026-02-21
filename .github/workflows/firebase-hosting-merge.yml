@@ -16,5 +16,7 @@ jobs:
         run: npm ci
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
+      - name: Build Next.js Site
+        run: npm run build
       - name: Deploy to Firebase Hosting
         run: firebase deploy --only hosting --project crossbow-incident-2026 --token "${{ secrets.FIREBASE_TOKEN }}" --non-interactive
